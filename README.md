@@ -10,4 +10,4 @@
 - Add first github action: run tests on pull request
 
 ## Step 3 
-- Add second github action: publish to npm (on merge
+- Add second github action: publish to npm (on merge)
