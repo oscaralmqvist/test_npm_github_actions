@@ -1,0 +1,21 @@
+name: Test suite 
+
+on:
+  push:
+    branches: 
+      - production
+  
+jobs:
+  test:
+    runs-on: ${{os}}
+    strategy:
+      node_version:
+        - "10"
+      os:
+        - "ubuntu-latest"
+    - name: yarn install & test 
+      run: |
+        yarn install
+        yarn test
+
+    
