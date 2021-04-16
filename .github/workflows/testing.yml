@@ -13,9 +13,10 @@ jobs:
         - "10"
       os:
         - "ubuntu-latest"
-    - name: yarn install & test 
-      run: |
-        yarn install
-        yarn test
+    steps: 
+      - name: yarn install & test 
+        run: |
+          yarn install
+          yarn test
 
     
