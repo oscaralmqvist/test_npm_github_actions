@@ -1,4 +1,4 @@
-const { sum, diff } = require("./calculator")
+const { sum, diff } = require("../calculator")
 
 test("meaning of life", () => {
   expect(sum(32, 10)).toBe(42);
